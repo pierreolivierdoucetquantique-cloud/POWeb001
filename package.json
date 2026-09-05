@@ -1,0 +1,21 @@
+{
+  "name": "pierre-olivier-doucet-fullstack",
+  "version": "1.0.0",
+  "description": "Backend de test - comptes clients, espace admin, reservations, email de confirmation",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "resend": "^4.0.1"
+  }
+}
